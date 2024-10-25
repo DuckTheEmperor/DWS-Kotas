@@ -60,3 +60,6 @@ dat.addEventListener('click', function(){
     const rd = ati.toLocaleDateString();
     pda.textContent = 'dnes je: ' + rd;
 })
+
+const value = parseFloat(document.getElementById('In').value);
+document.getElementById('vs').innerText = 'Výsledek: ' + (value + 3);
