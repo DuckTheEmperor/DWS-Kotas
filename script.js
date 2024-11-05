@@ -68,3 +68,13 @@ function add(){
     let fB = fA + 3;
     fc.textContent = "vysledek:" + fB;
 }
+
+function add(){
+    let fch = document.getElementById('fch');
+    let ch1 = document.getElementById('ch1').value;
+    let ch2 = document.getElementById('ch2').value;
+    ch1 = Number (ch1);
+    ch2 = Number (ch2);
+    let upc = ch1 +ch2;
+    fch.textContent = "vysledek:" + upc;
+}
