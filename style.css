@@ -1,7 +1,25 @@
-.Fu {
-  color: rgb(66, 145, 219);
+h1 {
+    color: rgb(66, 145, 219);
+    font-style: italic;
+    font-size: 140%;
+    background-color: aliceblue;
+    
+  }
+
+button{
+  background-color: aquamarine;
   font-style: italic;
-  font-size: 140%;
-  background-color: aliceblue;
-  
+
+}
+
+p{
+  color: burlywood;
+}
+
+label {
+  color: blueviolet;
+}
+
+body {
+  background-color: azure;
 }
