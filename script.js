@@ -61,5 +61,10 @@ dat.addEventListener('click', function(){
     pda.textContent = 'dnes je: ' + rd;
 })
 
-const value = parseFloat(document.getElementById('In').value);
-document.getElementById('vs').innerText = 'Výsledek: ' + (value + 3);
+function add(){
+    let fc = document.getElementById('fc');
+    let fA = document.getElementById('fA').value;
+    fA = Number(fA);
+    let fB = fA + 3;
+    fc.textContent = "vysledek:" + fB;
+}
