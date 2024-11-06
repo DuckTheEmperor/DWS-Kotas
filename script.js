@@ -78,3 +78,13 @@ function add(){
     let upc = ch1 +ch2;
     fch.textContent = "vysledek:" + upc;
 }
+
+const ig = document.getElementById('ig');
+
+   ig.addEventListener('mouseover', function() {
+     ig.style.transform = 'scale(1.5)';
+   });
+
+   ig.addEventListener('mouseout', function() {
+     ig.style.transform = 'scale(1)';
+    })
