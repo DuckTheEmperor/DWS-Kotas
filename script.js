@@ -88,3 +88,25 @@ const ig = document.getElementById('ig');
    ig.addEventListener('mouseout', function() {
      ig.style.transform = 'scale(1)';
     })
+
+const hod = document.getElementById('hod');
+const butpl = document.getElementById('butpl');
+const pts = document.getElementById('pts');
+
+butpl.addEventListener('click', function() {
+    const tatx = hod.value.trim();
+    const tait = document.createElement('li');
+    tait.className = 'tasit';
+
+    tait.textContent = tatx;
+
+    const detb = document.createElement('button');
+    detb.textContent = 'odstran';
+    detb.addEventListener('click', function() {
+        pts.removeChild(tait);
+    });
+
+    tait.appendChild(detb);
+
+    pts.appendChild(tait);
+});
